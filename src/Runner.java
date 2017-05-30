@@ -62,9 +62,6 @@ public class Runner {
 			}
 		}
 
-		if (inputI > 255 || inputI < 0) {
-			JOptionPane.showMessageDialog(null, "Sorry, the number was not within the given range");
-		}
 		return inputI;
 	}
 
